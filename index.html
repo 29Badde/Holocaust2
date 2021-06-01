@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Event</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://font.googleapis.com/css2?family=Poppins:wgth@100;200;300;400;600;700;&display=swap" rel="stylesheet"0>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="header"><img src="logo.jpeg"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+               <ul>   
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="siphelo.html">ABOUT</a></li>
+                  
+               </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>HOLOCOAST</h1>
+        <h1>ENCYCLOPEDIA</h1>
+    </div>
+    </section>
+
+    <!----<section class="course">
+        <h1>Courses We Offer</h1>
+
+    </section>---->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetus adipiscing elit.</p>
+      
+        <div class="row">
+        <div class="campus-col">
+              <img src="5.jpg" class="r">
+                <div class="layer">
+                <p><a href="siphelo.html">View More</a></p>
+                </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="2.jpg" class="u">
+              <div class="layer">
+                  <p><a href="siphelo.html">View More</a></p>
+              </div>
+      </div>
+
+      <div class="campus-col">
+        <img src="1.jpg" class="n">
+          <div class="layer">
+              <p><a href="siphelo.html">View More</a></p>
+          </div>
+  </div>
+
+      </div>
+
+    
+
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "10px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+    
+</body>
+</html>
